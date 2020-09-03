@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--stylesheet-->
+        <link rel="stylesheet" href="../css/stylesheet.css">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+
+
+        <!--socials-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script>
+                $(document).ready(function(){
+                // Add smooth scrolling to all links
+                $("a").on('click', function(event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                    } // End if
+                });
+                });
+                </script>
+
+        <title>Maribel Hernandez | Sabor Oaxaca</title>
+    </head>
+
+<body>
+
+    <header>
+        <nav class="nav-one">
+                <ul>
+                    <li><a href="../pages/resume.html">Resume</a></li> 
+                <li><a class="active" href="../index.html#projects">Projects</a></li> 
+                    <li><a href="../pages/index.html#about">About</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </nav> 
+    
+            <nav class="nav-social">    
+                <ul>
+                <li><a href="mailto:maribel@maribeldesign.com" class="fa fa-envelope"></a></li>
+                <li><a href="https://www.instagram.com/maribel.arrazola/" target="_blank" class="fa fa-instagram"></a></li> 
+                <li><a href="https://www.linkedin.com/in/maribel-hernandez/" target="_blank" class="fa fa-linkedin"></a></li> 
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section>
+            <article class="logo"><img src="../img/sabor-oaxaca.png"></article>
+        </section>
+        
+        <section>
+            <article id="sub-header-2">
+               <h1>Sabor Oaxaca</h1>
+            </article>
+        </section>
+
+        <section id="sub-header-3">
+            For one of my educational projects, I was assigned to find a local Los Angeles food truck that 
+            needed help rebranding their business. As a result I chose a Oaxacan Cuisine food truck, <a href="https://www.oaxacaonwheelsfoodtruck.net/" target="_blank">Oaxaca on Wheels, </a>
+            and rebranded them to Sabor Oaxaca. It was important for me to translate their extensive food menu, 
+            but simplify their branding. In addition, I wanted this rebrand to help distinguish them by ensuring 
+            I kept intact the traditional, homestyle feel that highlights their cuisine. From deciding on their 
+            brand colors to creating various design assets, it was important to stay consistent in all marketing 
+            materials.
+        </section>
+
+        <section>
+            <article>
+                <a href="#logo"><figure  class="snap-dropdown">Logo Redesign</figure></a>
+                <a href="#menu"><figure class="snap-dropdown">Menu</figure></a>
+                <a href="#foodtruck"><figure class="snap-dropdown">Food Truck</figure></a>
+                <a href="#website"><figure class="snap-dropdown">Website</figure></a>
+            </article>
+        </section>
+
+
+        <section>
+            <article>
+                <a href="https://www.instagram.com/maribel.arrazola/" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/maribel-hernandez/" target="_blank"class="fa fa-linkedin"></a>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2020 Maribel Hernandez. All Rights Reserved.
+    </footer>
+    
+</body>
+
+
+
+</html>
