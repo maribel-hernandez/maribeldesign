@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--stylesheet-->
+        <link rel="stylesheet" href="../css/stylesheet.css">
+
+        <!--favicon icon-->
+        <link rel="icon" type="img/png" href="../img/favicon-icon.ico" sizes="48x48">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+
+
+        <!--socials-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script>
+                $(document).ready(function(){
+                // Add smooth scrolling to all links
+                $("a").on('click', function(event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                    } // End if
+                });
+                });
+                </script>
+
+        <title>Maribel Hernandez | Selena</title>
+    </head>
+
+<body>
+
+    <header id="back-to-top">
+        <nav class="nav-one">
+                <ul>
+                    <li><a href="../pages/resume.html">Resume</a></li> 
+                <li><a class="active" href="../index.html">Projects</a></li> 
+                    <li><a href="../index.html">About</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </nav> 
+    
+            <nav class="nav-social">    
+                <ul>
+                <li><a href="mailto:maribel15.hernandez@gmail.com" class="fa fa-envelope"></a></li>
+                <li><a href="https://www.instagram.com/maribel.arrazola/" target="_blank" class="fa fa-instagram"></a></li> 
+                <li><a href="https://www.linkedin.com/in/maribel-hernandez/" target="_blank" class="fa fa-linkedin"></a></li> 
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section>
+            <article class="logo"><img src="../img/selena.png" alt="Selena Quintanilla Purple Logo"></article>
+        </section>
+        
+        <section>
+            <article id="sub-header-2">
+               <h1>Selena Quintanilla</h1>
+            </article>
+        </section>
+
+        <section id="sub-header-3">
+                Selena Quintanilla was a female tejano music artist who began signing at a young age.
+                Unfortunately, she was murdered at the age of 23, however, her music has become a staple
+                within the music industry and has influenced many of today’s artists, including Beyonce,
+                Jennifer Lopez, and Kacey Musgraves (just to name a few). Selena’s music revolved around
+                love and lust, but also women empowerment.
+            <p>
+                After 25 years, since Selena’s death, her music continues to inspire and influence a range of 
+                music genres from pop to country, which makes her timeless and relatable. As a result, I decided 
+                to pay tribute to Selena by designing a 25th Anniversary, Limited Edition Compact Disc (CD) Package. 
+            </p>
+                
+        </section>
+
+        <section>
+            <article class=buttons>
+                <a href="#compact-disc"><figure  class="snap-dropdown">View Compact Disc</figure></a>
+            </article>
+
+            <article class=buttons id="button">
+                <a href="../pages/project-el-padrino.html">PREV</a>
+            </article>
+
+            <article class=buttons id="button">
+                <a href="../pages/project-oaxaca.html">NEXT</a>
+            </article>
+        </section>
+
+        <section class="images" id="compact-disc">
+            
+            <article>
+              <img src="../img/selena-cd-insert-inside.png" alt="Selena CD Inside Insert Mockup">  
+            </article>
+            <article>
+                <img src="../img/selena-cd-insert.png" alt="Selena CD Cover Insert Mockup">
+            </article>
+            <article>
+                <img src="../img/selena-cd-insert-front-side-top.png" alt="Selena CD Front Cover Mockup">
+            </article>
+            <article>
+                <img src="../img/selena-cd-insert-rear-side-top.png" alt="Selena CD Back Cover Mockup">
+            </article>
+            
+        </section>
+
+        <section class="top">
+            <a href="#back-to-top">BACK TO TOP</a>
+        </section>
+    </main>
+
+
+
+    <footer>
+        © 2020 Maribel Hernandez. All Rights Reserved.
+    </footer>
+    
+</body>
+
+
+
+</html>

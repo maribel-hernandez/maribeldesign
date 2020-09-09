@@ -1,0 +1,611 @@
+*{
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-one{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.nav-social{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.fa:hover {
+    color: rgb(130,93, 86)
+}
+
+.fa-instagram {
+    color: rgb(231,178,164);
+}
+
+.fa-linkedin {
+    color: rgb(231,178,164);  
+    
+}
+
+.fa-envelope {
+    color: rgb(231,178,164);  
+    
+}
+
+#button{
+    color: black;
+    margin-left: 1%;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 15pt;
+    padding: 3%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+#button:hover, button:visited{
+    color: #E7B2A4;
+}
+
+.images{
+    width: fit-content;
+    padding: 7%;
+    display: inline-block;
+}
+
+.images-2{
+    width: fit-content;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: inline-block;
+}
+
+li{
+    list-style-type: none;
+    float: right;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(231,178,164);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: rgb(130,93, 86)
+
+  }
+
+.active {
+    color: rgb(130,93, 86)
+  }
+
+
+#main-logo{
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 10%;  
+    margin-bottom: 15%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.home-section{
+    background-color: white;
+    padding: 3%;
+}
+
+#name{
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
+    float: center;
+    padding: 2%;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: -8%;
+}
+
+.section-one{
+    background-color: white;
+    display: inline-block;
+    padding: 3%;
+}
+
+.section-two{
+    background-color: white;
+    display: inline-block;
+    padding: 5%;
+}
+
+#about-me{
+    background-color: #F0D1C8;
+    color: rgb(130,93, 86);
+    float: right;
+    padding: 18%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image{
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding: 2%;
+}
+
+.resume{
+    width: fit-content;
+    padding-left: 12%;
+    padding-right: 12%;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #e7b3a48c;
+    color: rgb(130,93, 86);
+    width: fit-content;
+    padding: 2%;
+    margin-bottom: 10%;
+    border-radius: 2em;
+}
+
+.download:hover{
+    color: white;
+}
+
+
+#header{
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+#header-2{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+#sub-header{
+    text-align: center;
+    margin-bottom: 12%;
+    padding: 1%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 00;
+}
+
+#sub-header-2{
+    margin-left: 3%;
+    padding: .5%;
+    letter-spacing: 4px;
+    font-size: 17pt;
+    text-transform: uppercase;
+}
+
+#sub-header-3{
+    font-size: 15pt;
+    margin-left: 3.4%;
+    margin-bottom: 3%;
+    padding-right: 10%;
+}
+
+#sub-header-4{
+    background-color: cadetblue;
+    margin-left: 3.4%;
+    margin-bottom: 3%;
+    width: fit-content;
+    margin-right: 30%;
+}
+
+#sub-header-5{
+    
+    margin-bottom: 3%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+#sub-header-6{
+    font-size: 15pt;
+    margin-left: 3.4%;
+    margin-bottom: 3%;
+    padding-right: 10%;
+    display: inline-block;
+}
+
+article#list{
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 15pt;
+}
+
+article#list:hover{
+    color: #E7B2A4;
+}
+
+a:link{
+    color: rgb(130,93, 86);
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E7B2A4;
+    text-decoration: none;
+    
+}
+
+
+
+.download a:visited{
+    color: rgb(130,93, 86);
+}
+
+.download a:hover{
+    color: white;
+}
+
+.nav-one a:visited{
+    text-decoration: none;
+}
+
+.buttons a:visited{
+    color: rgb(130,93, 86);
+}
+
+
+.logo{
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 15%;
+    display: inline-block;
+}
+
+.logo-2{
+    width: 13%;
+    margin-left: 3%;
+    margin-top: 15%;
+    display: inline-block;
+}
+
+.logo-3{
+    width: 18%;
+    margin-left: 3%;
+    margin-top: 12%;
+    display: inline-block;
+}
+
+.fa{
+    padding: 2%;
+    padding: 10px;
+    font-size: 30px;
+    width: 2vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+}
+
+.category-2{
+    display: inline;
+    width: fit-content;
+    padding: 2%;
+}
+
+.category{
+    display: inline;
+    width: fit-content;
+}
+
+.category-3{
+    display: inline-block;
+    width: 20%;
+    padding: 2%;
+}
+
+.snap-dropdown{
+    display: inline-block;
+    width: fit-content;
+    background-color: #e7b3a48c;
+    margin-left: 3%;
+    margin-right: auto;
+    text-align: center;
+    padding-right: 2.3%;
+    padding-left: 2.3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.box-1{
+    margin-top: 20%;
+    
+}
+
+.snap-dropdown:hover{
+    color: white;
+}
+
+.snap-dropdown:visited{
+    color: black;
+}
+
+.icon-box{
+    background-color: rgba(216, 215, 215, 0.397);
+    width: fit-content;
+    padding: 8%;    
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.icon-box-2{
+    background-color: rgba(216, 215, 215, 0.397);
+    width: fit-content;
+    display: inline-block;
+    padding: 5%;    
+    margin-top: 5%;
+    
+    
+}
+
+.image-box{
+    width: 20%;
+    padding: 1%;
+    display: inline-block;
+    margin-left: 6%
+}
+
+.image-box-2{
+    width: 21%;
+    padding: 1%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-box-3{
+    width: 25%;
+    padding: 1%;
+    display: inline-block;
+    margin-left: 3%
+}
+
+.image-box-4{
+    width: 5%;
+    padding: 1%;
+    display: inline;
+    margin-left: 3%
+}
+
+.client{
+    width: 18%;
+    padding: 5%;
+    display: inline-block;
+    margin-left: 7%;
+    margin-bottom: 1%;
+
+    transition: transform 3s;
+        -moz-transition: transform 3s;
+        -ms-transition: transform 3s;
+        -o-transition: transform 3s;
+        -webkit-transition: transform 3s;
+}
+
+.client:hover{
+    transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -o-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+}
+
+.client-4{
+    width: 15%;
+    padding: 7%;
+    display: inline-block;
+    margin-left: 18%;
+    margin-bottom: 1%;
+
+    transition: transform 3s;
+        -moz-transition: transform 3s;
+        -ms-transition: transform 3s;
+        -o-transition: transform 3s;
+        -webkit-transition: transform 3s;
+}
+
+.client-4:hover{
+    transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -o-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+}
+
+
+
+.client-2{
+    width: 20%;
+    padding: 7%;
+    display: inline-block;
+    transition: transform 3s;
+        -moz-transition: transform 3s;
+        -ms-transition: transform 3s;
+        -o-transition: transform 3s;
+        -webkit-transition: transform 3s;
+
+}
+
+
+.client-2:hover{
+    transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -o-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+}
+
+.client-2-1{
+    width: 13%;
+    margin-left: 8%;
+    padding: 5%;
+    display: inline-block;
+    transition: transform 3s;
+        -moz-transition: transform 3s;
+        -ms-transition: transform 3s;
+        -o-transition: transform 3s;
+        -webkit-transition: transform 3s;
+
+}
+
+.client-2-1:hover{
+    transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -o-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+}
+
+.client-3{
+    width: 15%;
+    padding: 5%;
+    margin-left: .75%;
+    display: inline-block;
+    transition: transform 3s;
+        -moz-transition: transform 3s;
+        -ms-transition: transform 3s;
+        -o-transition: transform 3s;
+        -webkit-transition: transform 3s;
+
+}
+
+.client-3:hover{
+    transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -o-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+}
+
+#ap{
+    width: 50%;
+    float: left; 
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 3%;  
+}
+
+#ap-2{
+    width: 32%;
+    float: left;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 5%;  
+
+    transition: transform 1s;
+        -moz-transition: transform 1s;
+        -ms-transition: transform 1s;
+        -o-transition: transform 1s;
+        -webkit-transition: transform 1s;
+
+}
+
+#ap-2:hover{
+    transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+}
+
+#ap-3{
+    background-color: rgba(216, 215, 215, 0.397);
+    width: fit-content;
+    padding: 15%;
+    
+}
+
+#ap-4{
+    width: 33%;
+    float: right;
+    padding: 4%;
+}
+
+#ap-5{
+    width: 38%;
+    float: left;
+    padding: 8%;
+    padding-top: 12%;
+}
+
+.top{
+    color: rgb(130,93, 86);
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+
+.top a:visited{
+    color: rgb(130,93, 86);
+}
+
+.bottom-nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding: 2%;
+    word-spacing: 30px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    color: rgb(231,178,164);
+    font-size: 10pt;
+    margin-top: 3em;
+    padding: 1%;
+}
+
+img{
+    width: 100%;
+}
+
+
